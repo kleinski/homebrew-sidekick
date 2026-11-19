@@ -8,4 +8,9 @@ cask "sidekick" do
   homepage "https://github.com/kleinski/SideKick"
 
   app "SideKick.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/SideKick.app"]
+  end
 end
