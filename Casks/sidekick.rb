@@ -9,8 +9,8 @@ cask "sidekick" do
 
   app "SideKick.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/SideKick.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-cr", "{{appdir}}/SideKick.app"]
   end
 end
