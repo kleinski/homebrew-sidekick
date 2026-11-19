@@ -7,5 +7,5 @@ cask "sidekick" do
   desc "Turn your Android tablet into a true second display across multiple MacBooks — USB-C or wireless over WiFi with instant Multi-Mac Takeover"
   homepage "https://github.com/kleinski/SideKick"
 
-  app "DeineApp.app"
+  app "SideKick.app"
 end
