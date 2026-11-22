@@ -1,6 +1,6 @@
 cask "sidekick" do
-  version "1.2.11"
-  sha256 "e96ae283b9f41e213755e1da6dcf170f0fa824559279f3ed98db28b689b48455"
+  version "1.2.12"
+  sha256 "057e6fb3c391959d64d457d6df568341832e047ad75676d65a0adfb0741adcb0"
 
   url "https://github.com/kleinski/SideKick/releases/download/v#{version}/SideKick-#{version}-mac-universal.dmg"
   name "SideKick"
